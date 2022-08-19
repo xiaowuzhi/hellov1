@@ -90,8 +90,8 @@ Email Address []:xxx@xxx.com
 一、问题描述：transport: authentication handshake failed: x509: certificate relies on legacy Common Name field, use SANs or temporarily enable
 二、背景环境：我的环境windows go 1.17，linux解决这个问题办法同样也适用。
 ```
-三、首先需要 [下载SSL](#http://slproweb.com/products/Win32OpenSSL.html)  
-![](https://github.com/xiaowuzhi/hellov1/d1.png)
+三、首先需要 [下载SSL](http://slproweb.com/products/Win32OpenSSL.html)  
+![xx](https://github.com/xiaowuzhi/hellov1/d1.png)
 
 ```
 
