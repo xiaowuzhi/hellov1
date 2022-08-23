@@ -110,8 +110,7 @@ Email Address []:xxx@xxx.com
 二、背景环境：我的环境windows go 1.17，linux解决这个问题办法同样也适用。
 ```
 三、首先需要 [下载SSL](http://slproweb.com/products/Win32OpenSSL.html)  
-![xx](https://github.com/xiaowuzhi/hellov1/d1.png)
-
+![](./d1.png)
 ```
 
 你点开这个链接以后会看到上面这图片显示的页面，我第一次下载的时候看见有个博客说随便点击一个下载，然后我也没仔细看，因为我的电脑是64位的，我就随便点了一个Win64的，然后好家伙，后面一共卸载下载了三次，不要下载forRAM的，会不允许安装，（ARM64是ARM中64位体系结构，x64是x86系列中的64位体系。ARM属于精简指令集体系，汇编指令比较简单。x86属于复杂指令集体系，汇编指令较多。属于两种不同的体系。看不懂没关系，你只要知道是两种不同的体系，那当然下载了也用不了）不要下载Light的，因为你会找不到后面所需要的openssl.cnf文件。
