@@ -4,6 +4,25 @@
 |---|---|
 | xx | xx |
 
+###### dig容器
+```
+go run ./digtest/main.go -c ./digtest/my.ini
+
+================== redis section =====================
+redis ip: 127.0.0.1
+redis port: 6379
+redis db: 0
+================== mysql section =====================
+mysql ip: 127.0.0.1
+mysql port: 3306
+mysql user: root
+mysql password: 123456
+mysql db: test
+~~~~~~~~~~~~~~~~~~ redis section connect ~~~~~~~~~~~~~
+redis ip: 127.0.0.1
+redis port: 6379
+redis db: 0
+```
 
 ###### Step1：编写描述文件：hello.proto
 ```
